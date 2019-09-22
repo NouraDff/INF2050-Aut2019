@@ -7,7 +7,7 @@ public class FizzBuzz {
             }else if(i % 3 == 0){
                 System.out.println("Fizz");
             }else if( i % 5 == 0) {
-                System.out.println("Buzz");//Même ligne que je souhaite éditer
+                System.out.println("Buzz");//Ajoute un conflit
             }
         }
     }
