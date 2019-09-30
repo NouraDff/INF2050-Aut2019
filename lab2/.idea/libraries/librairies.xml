@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="librairies">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../enonceINF2050/ateliers/json-lib/librairies" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../../enonceINF2050/ateliers/json-lib/librairies" recursive="false" />
+  </library>
+</component>
