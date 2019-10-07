@@ -2,7 +2,6 @@ package com.company;
 
 import net.sf.json.JSONArray;
 
-import javax.imageio.IIOException;
 import java.io.IOException;
 
 public class Main {

@@ -1,9 +1,6 @@
 package com.company;
 
 import java.io.IOException;
-import java.util.ArrayList;
-
-import net.sf.json.JSON;
 import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
 import net.sf.json.JSONSerializer;
