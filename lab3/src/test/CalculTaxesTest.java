@@ -31,14 +31,5 @@ class CalculTaxesTest {
         assertThrows(IllegalArgumentException.class, () -> CalculTaxes.calculerTaxeDeVentes(-9088, true ,true) );
     }
 
-    @Test
-    void testbidon(){
-        assertEquals(true, true);
-    }
-
-    @Test
-    void testbidon2(){
-        assertEquals(true, true);
-    }
 
 }
