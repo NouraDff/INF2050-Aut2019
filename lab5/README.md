@@ -26,10 +26,11 @@ $ git push origin <nom_branche>
 ```
 $ git merge <nom_branche>
 ```
-**Note**: le merge s'effectude du <nom_branche> vers le HEAD. 
-En faisaint un `git log` on peut voir la liste de tous les commits et leur informations. Le 'HEAD' est identifié a la suit de l'identifiant du commit comme suit :
+**Note**: le merge s'effectude du <nom_branche> vers le HEAD. Le HEAD correspond au dernier commit dans la branche où on est situé. 
+En faisaint un `git log` on peut voir la liste de tous les commits et leur informations. Le 'HEAD' est identifié à la suite de l'identifiant du commit comme suit :
 ```
 commit 7db268dc76475ab6b72535f28a6b7e98f47859a6 (HEAD -> master, origin/master)
 ```
-Donc dand cet example si je veux merge ma nouvelle_branche avec le master, je dois me déplacer dans le master `git checkout master`. 
-Je peux ensuite faire le merge `git merge nouvelle_branche`
+Ici le HEAD est situé dans origin/master
+Donc, dans cet example si je veux merge ma nouvelle_branche avec le master, je dois me déplacer dans le master `git checkout master` puis
+je peux ensuite faire le merge `git merge nouvelle_branche`
