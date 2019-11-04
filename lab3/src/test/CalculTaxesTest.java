@@ -2,6 +2,7 @@ import com.company.CalculTaxes;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class CalculTaxesTest {
@@ -28,6 +29,11 @@ class CalculTaxesTest {
     @Test
     void calculerTaxeDeVentesNegatif() {
         assertThrows(IllegalArgumentException.class, () -> CalculTaxes.calculerTaxeDeVentes(-9088, true ,true) );
+    }
+
+    @Test
+    void testbidon(){
+        assertEquals(true, true);
     }
 
 }
