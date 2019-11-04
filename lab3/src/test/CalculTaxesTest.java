@@ -36,4 +36,9 @@ class CalculTaxesTest {
         assertEquals(true, true);
     }
 
+    @Test
+    void testbidon2(){
+        assertEquals(true, true);
+    }
+
 }
