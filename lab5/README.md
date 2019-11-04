@@ -26,7 +26,7 @@ $ git push origin <nom_branche>
 ```
 $ git merge <nom_branche>
 ```
-**Note**: de <nom_branche> vers le HEAD. 
+**Note**: le merge s'effectude du <nom_branche> vers le HEAD. 
 En faisaint un `git log` on peut voir la liste de tous les commits et leur informations. Le 'HEAD' est identifié a la suit de l'identifiant du commit comme suit :
 ```
 commit 7db268dc76475ab6b72535f28a6b7e98f47859a6 (HEAD -> master, origin/master)
